@@ -1,0 +1,15 @@
+cloud:
+  aws:
+    credentials:
+      access-key:
+      secretkey:
+    region: ap-southeast-2
+    stack: auto:false
+
+
+application:
+  bucket:
+    name: josephs3buck
+
+server:
+  port: 8080
